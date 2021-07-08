@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{7AF6BA3E-1D46-4ED1-9C50-D03AC649044F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Quiz.cs">
+    <Files>
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Quiz.cs" Line="15" Column="28" />
+      <File FileName="Question.cs" Line="9" Column="12" />
+      <File FileName="MultipleChoice.cs" Line="12" Column="10" />
+      <File FileName="TrueFalse.cs" Line="8" Column="10" />
+      <File FileName="CheckBox.cs" Line="16" Column="21" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CH21-Studio" expanded="True">
+            <Node name="CH21-Studio" expanded="True">
+              <Node name="Quiz.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CH21-Studio PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -6,18 +6,38 @@ using System.Threading.Tasks;
 
 namespace CH21_Studio
 {
-    class Question
+    public class Question
     {
         public string ActualQuestion { get; set; }
 
-        public List<string> Answers { get; set; }
+        public List<string> PossibleAnswers { get; set; }
+
+        public void ShowPossibleAnswers()
+        {
+            Console.WriteLine($"Questions:");
+            int i = 1;
+            foreach (var item in PossibleAnswers)
+            {
+                Console.WriteLine($"{i}.{item}");
+                i++;
+            }
+        }
+
+        public void AddPossibleAnswers(List<string>options)
+        {
+            foreach (var item in options)
+            {
+                PossibleAnswers.Add(item);
+            }
+        }
+
+        public double PointValue { get; set; }
 
 
-
-        public Question(string question, List<string> answers)
+        public Question(string question)
         {
             ActualQuestion = question;
-            Answers = answers;
+            PointValue = 1;
         }
     }
 }

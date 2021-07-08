@@ -8,11 +8,12 @@ namespace CH21_Studio
 {
     class Quiz : Question
     {
-        public Dictionary<string, List<string>> AnswerKey { get; set; }
+        public Dictionary<string, List<string>>AnswerKey { get; set; }
 
-        public void AddQuestion(string question, List<string> answers)
+        public void AddQuestion(Question question)
         {
-
+            string question
+            AnswerKey.Add<question.ActualQuestion, question.PossibleAnswers>;
         }
 
         public Quiz()
